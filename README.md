@@ -1,0 +1,3 @@
+This repository demonstrates a common error in shell scripting: improper handling of empty files. The `bug.sh` script attempts to read a file and print its contents.  However, if the file is empty, it throws an error.  The `bugSolution.sh` provides a corrected version that gracefully handles empty files.
+
+This example highlights the importance of robust error handling in shell scripts to prevent unexpected failures.
